@@ -1,0 +1,14 @@
+body {
+    margin:0
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    /* primary axis is row */
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+#wrapper{
+    border: 1px solid black;
+}
